@@ -1,1 +1,18 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><variables></variables><block type="pxt-on-start" id="2%YTA67S-cdJ5}z@dFkK" x="0" y="0"></block></xml>
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="x6ZlBudWIa/`}E`Q2$$%">mySprite</variable><variable type="KIND_SpriteKind" id="@NfQY5o3icPR%]#;|Z_S">Player</variable><variable type="KIND_SpriteKind" id="6{KT9W^8k1uG$F%r^Z*D">Projectile</variable><variable type="KIND_SpriteKind" id="l1-6/@*#)J%ze@;#Ss^~">Food</variable><variable type="KIND_SpriteKind" id="gLCOYg){i2R01K`x7_+`">Enemy</variable></variables><block type="pxt-on-start" id="2%YTA67S-cdJ5}z@dFkK" x="49" y="50"><statement name="HANDLER"><block type="variables_set" id="H.p_%DMQ_K,AVm-b6JVt"><field name="VAR" id="x6ZlBudWIa/`}E`Q2$$%">mySprite</field><value name="VALUE"><shadow type="math_number" id="8P1sKj;P71RV]AK~?Fq,"><field name="NUM">0</field></shadow><block type="spritescreate" id="}4l]}saA3V}~AHcK^+sf"><value name="img"><shadow type="screen_image_picker" id="S)8=v/-_5z5_R+8r94fd"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . 3 . 3 . . . . . . 
+. . . . . . . 3 . 3 . . . . . . 
+. . . . . . . 3 . 3 . . . . . . 
+. . . . . . . 3 . 3 . . 3 . . . 
+. . . . . . . . . . . . 3 . . . 
+. . . 3 . . . . . . . . 3 . . . 
+. . . 3 . . . . . . . . 3 . . . 
+. . . 3 . . . . . . . 3 . . . . 
+. . . 3 . . . . . . . 3 . . . . 
+. . . 3 . . . . . . . 3 . . . . 
+. . . 3 3 . . . . . . 3 . . . . 
+. . . . . 3 3 3 3 3 3 3 . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":null}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="l?BmZ9V-Eh_]X($ISA^P"><field name="MEMBER">Player</field></shadow></value></block></value></block></statement></block><block type="keyonevent" id="~BHRm?EeH%c8%KMDWBgi" x="209" y="369"><field name="button">controller.A</field><field name="event">ControllerButtonEvent.Pressed</field><statement name="HANDLER"><block type="music_playable_play" id="}ETq/nqNbub5oaCpN^.8"><field name="playbackMode">music.PlaybackMode.UntilDone</field><value name="toPlay"><shadow type="music_string_playable" id="H^!eDfo)sP~SZ*Y~66TO"><value name="melody"><shadow type="melody_editor" id="4yE;PM.MC8-4{Rn2viDE"><field name="melody">"C D E F E F G A "</field></shadow></value><value name="tempo"><shadow type="math_number_minmax" id="zL]a+C]8324a((aj,ga2"><mutation min="40" max="500" label="Tempo" precision="0"></mutation><field name="SLIDER">120</field></shadow></value></shadow></value></block></statement></block></xml>
